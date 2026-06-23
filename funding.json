@@ -1,0 +1,67 @@
+{
+"$schema": "https://fundingjson.org/schema/v1.1.0.json",
+"version": "v1.1.0",
+"entity": {
+"type": "individual",
+"role": "owner",
+"name": "Naman Jain",
+"email": "[naman342jain@gmail.com](mailto:naman342jain@gmail.com)",
+"phone": "+91-9625175131",
+"description": "Java backend and security-focused developer with experience in distributed systems, Android security, Spring ecosystem, and open-source contributions to Keycloak and OpenTelemetry.",
+"webpageUrl": {
+"url": "https://namanoncode.me"
+}
+},
+"projects": [
+{
+"guid": "anchorpq",
+"name": "AnchorPQ",
+"description": "AnchorPQ is an Android Post-Quantum Integrity Framework that verifies application authenticity using deterministic bytecode fingerprinting with Merkle Trees and runtime verification. The framework uses ML-KEM (CRYSTALS-Kyber) for post-quantum secure communication between Android clients and a Quarkus-based verification server.",
+"webpageUrl": {
+"url": "https://github.com/namanONcode/Anchor-pq"
+},
+"repositoryUrl": {
+"url": "https://github.com/namanONcode/Anchor-pq"
+},
+"licenses": [
+"spdx:Apache-2.0"
+],
+"tags": [
+"android",
+"security",
+"cryptography",
+"post-quantum",
+"ml-kem",
+"merkle-tree",
+"gradle-plugin",
+"integrity-verification",
+"java",
+"open-source"
+]
+}
+],
+"funding": {
+"channels": [
+{
+"guid": "github-sponsors",
+"type": "payment-provider",
+"address": "https://github.com/sponsors/namanONcode",
+"description": "Support ongoing development and maintenance of AnchorPQ."
+}
+],
+"plans": [
+{
+"guid": "anchorpq-sustainability",
+"status": "active",
+"name": "Project Sustainability",
+"description": "Supports verification server hosting, CI/CD pipelines, code quality analysis, monitoring, backups, security updates, documentation, maintenance, and future development of AnchorPQ.",
+"amount": 1000,
+"currency": "USD",
+"frequency": "yearly",
+"channels": [
+"github-sponsors"
+]
+}
+]
+}
+}
