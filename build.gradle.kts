@@ -55,7 +55,7 @@ dependencies {
     implementation("org.bouncycastle:bcpkix-jdk18on:1.84")
 
     // Android Gradle Plugin for AGP integration
-    compileOnly("com.android.tools.build:gradle:9.2.1")
+    compileOnly("com.android.tools.build:gradle:9.3.0")
 
     // Gson for JSON handling
     implementation("com.google.code.gson:gson:2.14.0")
