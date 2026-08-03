@@ -35,7 +35,7 @@
 
         <bouncycastle.version>1.85</bouncycastle.version>
 
-        <spotless.version>3.4.0</spotless.version>
+        <spotless.version>3.9.0</spotless.version>
     </properties>
 
     <dependencyManagement>
