@@ -78,8 +78,8 @@ dependencies {
     // Networking
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
-    implementation("com.squareup.okhttp3:okhttp:5.4.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:5.4.0")
+    implementation("com.squareup.okhttp3:okhttp:5.5.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:5.5.0")
 
     // Bouncy Castle for ML-KEM (Post-Quantum Crypto)
     implementation("org.bouncycastle:bcprov-jdk18on:1.84")
@@ -104,5 +104,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.7.0")
     androidTestImplementation("androidx.test:runner:1.7.0")
     androidTestImplementation("androidx.test:rules:1.7.0")
-    androidTestImplementation("com.squareup.okhttp3:mockwebserver:5.4.0")
+    androidTestImplementation("com.squareup.okhttp3:mockwebserver:5.5.0")
 }
