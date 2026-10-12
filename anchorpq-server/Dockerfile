@@ -6,7 +6,7 @@
 # =============================================================================
 # Stage 1: Build
 # =============================================================================
-FROM --platform=$BUILDPLATFORM maven:3-eclipse-temurin-26 AS build
+FROM --platform=$BUILDPLATFORM maven:3-eclipse-temurin-27 AS build
 
 WORKDIR /app
 
