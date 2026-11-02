@@ -90,7 +90,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0")
 
     // JSON
-    implementation("com.google.code.gson:gson:2.14.0")
+    implementation("com.google.code.gson:gson:2.15.0")
 
     // Unit Testing
     testImplementation("junit:junit:4.13.2")
